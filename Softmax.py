@@ -8,7 +8,7 @@ layer_outputs = [[4.8, 1.21, 2.385],
 exp_values = np.exp(layer_outputs)
 
 #normalization by rows
-norm_values = exp_values / np.sum(exp_values, axis=1, keepdims=True)) #keepdims keeps the same dimentions
+norm_values = exp_values / np.sum(exp_values, axis=1, keepdims=True)#keepdims keeps the same dimentions
 
 print(norm_values)
 
